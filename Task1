@@ -1,0 +1,20 @@
+print("welcome to calculator:")
+print("choose operator")
+print("1.addition")
+print("2.subtraction")
+print("3.multiplication")
+print("4.division")
+print("5.none")
+operator=input("enter operator:")
+num1=int(input("enter num1"))
+num2=int(input("enter num2"))
+if operator=="1":
+  print(num1+num2)
+elif operator=="2":
+  print(num1-num2)
+elif operator=="3":
+  print(num1 * num2)
+elif operator=="4":
+  print(num1/num2)
+else:
+  print(none)
